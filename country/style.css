@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(5, 174, 5);
+  }
+  
+header {
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+}
+  
+header h1 {
+    color: yellow;
+    font-size: 60px;
+    border: 8px dashed purple;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 26px;
+}
+  
+nav {
+    text-align: center;
+    padding: 20px;
+    position: static;
+    top: 106px;
+}
+  
+nav ul{
+    white-space: nowrap;  
+    max-width 1200px;
+    margin: 0 auto;
+}
+  
+nav li {
+    width: 25%;  
+    display: inline-block;  
+    font-size: 40px;
+}
+  
+nav li a {
+    text-decoration: none;
+    color: yellow;   
+}  
+  
+  /* psuedo classes */
+  
+nav li a:hover {
+    text-decoration: underline;
+    color: white;  

@@ -3,7 +3,7 @@ body {
 }
 
 .metal {
-  background-color: black;  
+  background-color: #4b4b4b;  
 }
 
 .country {
@@ -23,6 +23,22 @@ header {
 header h1 {
   color: red;
   font-size: 60px;
+  border: 8px solid #ddc9c9;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 30px;
+}
+
+.H1 {
+  color: rgb(255, 219, 113);    
+}
+
+.H2 {
+  color: yellow;  
+}
+
+.H3 {
+  color:aliceblue;      
 }
 
 nav {
@@ -47,11 +63,29 @@ nav li {
 nav li a {
   text-decoration: none;
   color: red;   
-}
+}  
 
 /* psuedo classes */
 
 nav li a:hover {
   text-decoration: underline;
-  color: grey;    
+  color: white;    
+}
+
+/* footer */
+
+footer {
+  border-top: 2px solid white;
+  background-color: rgb(4, 4, 79);
+  color: red;
+  text-align: center;
+  padding: 1.25rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;    
+}
+
+#ttechlink {
+  color: red;
+  font-size: 1.15rem; 
 }

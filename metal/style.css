@@ -1,0 +1,49 @@
+body {
+    background-color: #4b4b4b;
+  }
+  
+header {
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+}
+  
+header h1 {
+    color: green;
+    font-size: 60px;
+    border: 8px dashed rgb(168, 5, 5);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 30px;
+}
+  
+nav {
+    text-align: center;
+    padding: 20px;
+    position: static;
+    top: 106px;
+}
+  
+nav ul{
+    white-space: nowrap;  
+    max-width 1200px;
+    margin: 0 auto;
+}
+  
+nav li {
+    width: 25%;  
+    display: inline-block;  
+    font-size: 40px;
+}
+  
+nav li a {
+    text-decoration: none;
+    color: green;   
+}  
+  
+  /* psuedo classes */
+  
+nav li a:hover {
+    text-decoration: underline;
+    color: white;    
+}
