@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(4, 4, 79);
+}
+
+.metal {
+  background-color: black;  
+}
+
+.country {
+  background-color: green;  
+}
+
+.jazz {
+  background-color: blue;  
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  margin: 0px auto;
+}
+
+header h1 {
+  color: red;
+  font-size: 60px;
+}
+
+nav {
+  text-align: center;
+  padding: 20px;
+  position: static;
+  top: 106px;
+}
+
+nav ul{
+  white-space: nowrap;  
+  max-width 1200px;
+  margin: 0 auto;
+}
+
+nav li {
+  width: 25%;  
+  display: inline-block;  
+  font-size: 40px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: red;   
+}
+
+/* psuedo classes */
+
+nav li a:hover {
+  text-decoration: underline;
+  color: grey;    
+}
