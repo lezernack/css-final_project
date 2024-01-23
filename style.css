@@ -2,22 +2,12 @@ body {
   background-color: rgb(4, 4, 79);
 }
 
-.metal {
-  background-color: #4b4b4b;  
-}
-
-.country {
-  background-color: green;  
-}
-
-.jazz {
-  background-color: blue;  
-}
-
 header {
   text-align: center;
   width: 100%;
   margin: 0px auto;
+  top: 0;
+  display: inline-block;
 }
 
 header h1 {
@@ -27,18 +17,6 @@ header h1 {
   padding: 10px;
   display: inline-block;
   border-radius: 30px;
-}
-
-.H1 {
-  color: rgb(255, 219, 113);    
-}
-
-.H2 {
-  color: yellow;  
-}
-
-.H3 {
-  color:aliceblue;      
 }
 
 nav {
