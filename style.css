@@ -50,10 +50,6 @@ nav li a:hover {
   color: white;    
 }
 
-nav li a:active {
-  target: _blank;  
-}
-
 /* footer */
 
 footer {
